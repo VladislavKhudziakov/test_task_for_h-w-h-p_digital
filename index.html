@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/scroll-button.js"></script>
+    <script src="script/dropdown-button.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="hamb-btn_block">
+                <button class="hamb-btn" id="header__hamb-btn">
+                    <div class="hamb-btn__line"></div>
+                    <div class="hamb-btn__line"></div>
+                    <div class="hamb-btn__line"></div>
+                </button>
+                <label for="header__hamb-btn" class="hamb-btn__label">Menu</label>
+                <ul class="dropdown-menu" id="header__dropdown-menu">
+                    <li class="dropdown-item"><a href="#">item 1</a></li>
+                    <li class="dropdown-item"><a href="#">item 2</a></li>
+                    <li class="dropdown-item"><a href="#">item 3</a></li>
+                    <li class="dropdown-item hidden"><a href="#">Home</a></li>
+                    <li class="dropdown-item hidden"><a href="#">Products</a></li>
+                    <li class="dropdown-item hidden"><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="header__nav_menu_container">
+                <a href="#" class="logo">Wooder</a>
+                <ul class="header__nav_menu-list">
+                    <li class="header__nav_menu-item"><a href="#">Home</a></li>
+                    <li class="header__nav_menu-item"><a href="#">Products</a></li>
+                    <li class="header__nav_menu-item"><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="header__lang-block">
+                <a href="#" class="info"><img src="img/header-info/info.png" alt="info"></a>
+                <select name="" id="" class="lang__select">
+                    <option value="en">En</option>
+                    <option value="Ru">Ru</option>
+                </select>
+            </div>
+        </nav>
+        <div class="header__bg_left"></div>
+        <div class="header__bg_right">
+            <div class="header__bg_right_block">
+                <p class="letter">W</p>
+                <a href="#" class="header__share"><img src="img/header-share/share.png" alt="share"></a>
+            </div>
+        </div>
+        <section class="slider">
+            <ul class="slider__list">
+                <li class="slider__item">
+                    <div class="slider__item-1_wrapper">
+                        <h1 class="main-title">Wooder</h1>
+                        <a href="#" class="button">Learn more <img src="img/header-arrow/arrow.png" alt="arrow"></a>
+                        <p class="slider__item-1_text">furniture & decor</p>
+                        <div class="scroll_block">
+                            <img src="img/header-mouse/mouse.png" alt="mouse">
+                            <img src="img/header-mouse/arrow.png" alt="arrow">
+                            <p class="scroll_block_txt">scroll</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="slider__item"></li>
+                <li class="slider__item"></li>
+                <li class="slider__item"></li>
+            </ul>
+            <nav class="slider__nav">
+                <div class="slider__nav_text_block">
+                    <div class="slider__nav_line"></div>
+                    <p class="slider__nav_text">01</p>
+                </div>
+                <ul class="bullits__list">
+                    <li class="bullit active"></li>
+                    <li class="bullit"></li>
+                    <li class="bullit"></li>
+                    <li class="bullit"></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header__info_hidden">
+            <h1 class="main-title">Wooder</h1>
+            <p class="description">furniture & decor</p>
+        </section>
+    </header>
+    <main class="main">
+        <section class="main__what_we_do">
+            <div class="line">
+                <div class="wrapper">
+                    <p class="bg_txt">Furniture</p>
+                    <div class="img">
+                        <img class="line_image" src="img/main-what-we-do/table.png" alt="table">
+                    </div>
+                    <div class="line_block">
+                        <h2 class="title">Furniture</h2>
+                        <p class="description">Wooder utilizes materials otherwise left behind, rendered useless in their original intent. By creating new pieces made of reclaimed barnwood</p>
+                        <a href="#" class="learn-more_btn">Learn more</a>
+                        <p class="number">01<span class="brown">.</span></p>
+                        <div class="vertical-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="wrapper reverse">
+                    <p class="bg_txt">Decor</p>
+                    <div class="img">
+                        <img class="line_image" src="img/main-what-we-do/chair.png" alt="chair">
+                    </div>
+                    <div class="line_block">
+                        <h2 class="title">Decor</h2>
+                        <p class="description">We make all types of wooden decor as per design given by Architect,Interior designer, contractor which is suitable
+                            your premises. </p>
+                        <a href="#" class="learn-more_btn">Learn more</a>
+                        <p class="number">02<span class="brown">.</span></p>
+                        <div class="vertical-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__videos">
+            <h2 class="title">wooder – is quality</h2>
+            <p class="description">
+                We create unique design objects made of rare wood, specially under the order. Look at the short video about our work.
+            </p>
+            <div class="wrapper">
+                <div class="video_card">
+                    <div class="video_wrapper">
+                        <a href="#" class="video_btn"></a>
+                        <video src="#" class="video_card_video bg-1"></video>
+                    </div>
+                    <p class="txt">Innovative Design</p>
+                </div>
+                <div class="video_card">
+                    <div class="video_wrapper">
+                        <a href="#" class="video_btn"></a>
+                        <video src="#" class="video_card_video bg-2"></video>
+                    </div>
+                    <p class="txt">High-level Skills</p>
+                </div>
+                <div class="video_card">
+                    <div class="video_wrapper">
+                        <a href="#" class="video_btn"></a>
+                        <video src="#" class="video_card_video bg-3"></video>
+                    </div>
+                    <p class="txt">Quality Products</p>
+                </div>
+            </div>
+        </section>
+        <section class="main__video">
+            <div class="bg-video_block">
+                <video src="#" class="bg-video"></video>
+                <a href="#" class="bg-video_btn"></a>
+            </div>
+            <div class="line">
+                <div class="wrapper">
+                    <div class="line_block">
+                        <h2 class="title">we Do the design
+                            of any complexity</h2>
+                        <p class="description">This is a team of professionals that make the furniture and
+                            wood décor high standard. Creating modern designs.
+                            Adhering to the global quality standards. And we are
+                            doing work with love.
+                        </p>
+                        <a href="#" class="button"><img src="img/main-bg-video/button-play.png" alt="play">watch video</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__about-us">
+            <div class="line">
+                <div class="wrapper">
+                    <p class="bg_txt">about us</p>
+                    <div class="img">
+                        <img class="line_image" src="img/main-about-us/about-us.png" alt="about us">
+                    </div>
+                    <div class="line_block">
+                        <h2 class="title">About us</h2>
+                        <p class="description">We are a team of professionals in the wood processing and the creation of wooden furniture
+                            of the highest class</p>
+                        <a href="#" class="learn-more_btn">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="copyright">© 2016 WOODER</p>
+        <a href="#" class="logo">wooder</a>
+        <p class="author"><span>Designed by </span>Viacheslav Olianishyn</p>
+    </footer>
+</body>
+</html>
